@@ -1,5 +1,5 @@
 <h1>User Data Record</h1>
-![pic](https://github.com/Rukundo-Bahati/user-data-recording/assets/150172206/e236222e-d0f1-4c1b-9241-1184a6f35ab1)
+(https://github.com/Rukundo-Bahati/user-data-recording/assets/150172206/e236222e-d0f1-4c1b-9241-1184a6f35ab1)
 
 This repository contains a web application built with React.js and interacts with a RESTful API to manage user data records. It allows users to view, add, edit, and delete user information.
 
