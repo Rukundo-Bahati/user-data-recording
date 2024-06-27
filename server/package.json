@@ -4,8 +4,7 @@
   "description": "user data form",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js",
-    "install": "install.bat"
+    "start": "nodemon index.js"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
