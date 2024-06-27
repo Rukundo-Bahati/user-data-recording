@@ -1,0 +1,5 @@
+{
+  "PORT": "port",
+  "JWTPRIVATEKEY": "userprivatekey",
+  "SALT": "salt"
+}
