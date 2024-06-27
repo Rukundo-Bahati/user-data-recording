@@ -32,6 +32,8 @@ sql
 Copy code
 npm start
 Open your browser and navigate to http://localhost:3000 to view the application.
+the server must run on "http://localhost:5110"
+look for other configurations in custom-environement-variables.json on server 
 
 Contributing
 Contributions are welcome! If you find any issues or have suggestions for improvement, please open an issue or create a pull request.

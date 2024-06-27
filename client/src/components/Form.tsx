@@ -54,7 +54,7 @@ const Form = () => {
                   </h2>
                   <select
                     name="title"
-                    className="form-select block w-full p-2 text-sm text-dark border border-gray-300 rounded m-3"
+                    className="form-select block w-full p-2 text-sm text-dark border border-gray-300 rounded mb-3"
                     value={formData.title}
                     onChange={handleChange}
                     aria-label="Title"
@@ -64,31 +64,29 @@ const Form = () => {
                     <option value="CEO">CEO</option>
                     <option value="Accountant">Accountant</option>
                   </select>
-                  <div className="row g-3">
-                    <div className="col">
-                      <input
-                        type="text"
-                        name="firstName"
-                        className="form-control block w-full p-2 text-sm text-dark border border-gray-300 rounded m-3"
-                        placeholder="First Name"
-                        value={formData.firstName}
-                        onChange={handleChange}
-                      />
-                    </div>
-                    <div className="col">
-                      <input
-                        type="text"
-                        name="lastName"
-                        className="form-control block w-full p-2 text-sm text-dark border border-gray-300 rounded m-3"
-                        placeholder="Last Name"
-                        value={formData.lastName}
-                        onChange={handleChange}
-                      />
-                    </div>
+                  <div className="mb-3">
+                    <input
+                      type="text"
+                      name="firstName"
+                      className="form-control block w-full p-2 text-sm text-dark border border-gray-300 rounded mb-3"
+                      placeholder="First Name"
+                      value={formData.firstName}
+                      onChange={handleChange}
+                    />
+                  </div>
+                  <div className="mb-3">
+                    <input
+                      type="text"
+                      name="lastName"
+                      className="form-control block w-full p-2 text-sm text-dark border border-gray-300 rounded mb-3"
+                      placeholder="Last Name"
+                      value={formData.lastName}
+                      onChange={handleChange}
+                    />
                   </div>
                   <select
                     name="position"
-                    className="form-select block w-full p-2 text-sm text-dark border border-gray-300 rounded m-3"
+                    className="form-select block w-full p-2 text-sm text-dark border border-gray-300 rounded mb-3"
                     value={formData.position}
                     onChange={handleChange}
                     aria-label="Position"
@@ -98,32 +96,28 @@ const Form = () => {
                     <option value="Middle">Middle</option>
                     <option value="Upper">Upper</option>
                   </select>
-                  <div className="row g-3">
-                    <div className="col">
-                      <input
-                        type="text"
-                        name="businessArena"
-                        className="form-control block w-full p-2 text-sm text-dark border border-gray-300 rounded m-3"
-                        placeholder="Business Arena"
-                        value={formData.businessArena}
-                        onChange={handleChange}
-                      />
-                    </div>
-                    <div className="col">
-                      <select
-                        name="employees"
-                        className="form-select block w-full p-2 text-sm text-dark border border-gray-300 rounded m-3"
-                        value={formData.employees}
-                        onChange={handleChange}
-                        aria-label="Employees"
-                      >
-                        <option value="">Employees</option>
-                        <option value="<50">&lt;50</option>
-                        <option value="<100">&lt;100</option>
-                        <option value="Above 500">Above 500</option>
-                      </select>
-                    </div>
+                  <div className="mb-3">
+                    <input
+                      type="text"
+                      name="businessArena"
+                      className="form-control block w-full p-2 text-sm text-dark border border-gray-300 rounded mb-3"
+                      placeholder="Business Arena"
+                      value={formData.businessArena}
+                      onChange={handleChange}
+                    />
                   </div>
+                  <select
+                    name="employees"
+                    className="form-select block w-full p-2 text-sm text-dark border border-gray-300 rounded mb-3"
+                    value={formData.employees}
+                    onChange={handleChange}
+                    aria-label="Employees"
+                  >
+                    <option value="">Employees</option>
+                    <option value="<50">&lt;50</option>
+                    <option value="<100">&lt;100</option>
+                    <option value="Above 500">Above 500</option>
+                  </select>
                 </div>
               </div>
               <div className="col-md-6">
@@ -135,7 +129,7 @@ const Form = () => {
                     <input
                       type="text"
                       name="streetNr"
-                      className="form-control block w-full p-2 text-sm text-white placeholder-white bg-primary border-bottom border-gray-300 focus:border-transparent focus:outline-none"
+                      className="form-control block w-full p-2 text-sm text-white placeholder-white bg-primary border-bottom border-gray-300 focus:border-transparent focus:outline-none rounded mb-3"
                       placeholder="Street * Nr"
                       value={formData.streetNr}
                       onChange={handleChange}
@@ -143,7 +137,7 @@ const Form = () => {
                     <input
                       type="text"
                       name="additionalInfo"
-                      className="form-control block w-full p-2 text-sm text-white placeholder-white bg-primary border-bottom border-gray-300 focus:border-transparent focus:outline-none"
+                      className="form-control block w-full p-2 text-sm text-white placeholder-white bg-primary border-bottom border-gray-300 focus:border-transparent focus:outline-none rounded mb-3"
                       placeholder="Additional Information"
                       value={formData.additionalInfo}
                       onChange={handleChange}
@@ -153,7 +147,7 @@ const Form = () => {
                         <input
                           type="text"
                           name="zipCode"
-                          className="form-control block w-full p-2 text-sm text-white placeholder-white bg-primary border-bottom border-gray-300 focus:border-transparent focus:outline-none"
+                          className="form-control block w-full p-2 text-sm text-white placeholder-white bg-primary border-bottom border-gray-300 focus:border-transparent focus:outline-none rounded mb-3"
                           placeholder="Zip Code"
                           value={formData.zipCode}
                           onChange={handleChange}
@@ -162,7 +156,7 @@ const Form = () => {
                       <div className="col">
                         <select
                           name="place"
-                          className="form-select block w-full p-2 text-sm text-white placeholder-white bg-primary border-bottom border-gray-300 focus:border-transparent focus:outline-none"
+                          className="form-select block w-full p-2 text-sm text-white placeholder-white bg-primary border-bottom border-gray-300 focus:border-transparent focus:outline-none rounded mb-3"
                           value={formData.place}
                           onChange={handleChange}
                           aria-label="Place"
@@ -176,7 +170,7 @@ const Form = () => {
                     </div>
                     <select
                       name="country"
-                      className="form-select block w-full p-2 text-sm text-white placeholder-white bg-primary border-bottom border-gray-300 focus:border-transparent focus:outline-none"
+                      className="form-select block w-full p-2 text-sm text-white placeholder-white bg-primary border-bottom border-gray-300 focus:border-transparent focus:outline-none rounded mb-3"
                       value={formData.country}
                       onChange={handleChange}
                       aria-label="Country"
@@ -191,7 +185,7 @@ const Form = () => {
                         <input
                           type="number"
                           name="code"
-                          className="form-control block w-full p-2 text-sm text-white placeholder-white bg-primary border-bottom border-gray-300 focus:border-transparent focus:outline-none"
+                          className="form-control block w-full p-2 text-sm text-white placeholder-white bg-primary border-bottom border-gray-300 focus:border-transparent focus:outline-none rounded mb-3"
                           placeholder="Code *"
                           value={formData.code}
                           onChange={handleChange}
@@ -201,7 +195,7 @@ const Form = () => {
                         <input
                           type="number"
                           name="phoneNumber"
-                          className="form-control block w-full p-2 text-sm text-white placeholder-white bg-primary border-bottom border-gray-300 focus:border-transparent focus:outline-none"
+                          className="form-control block w-full p-2 text-sm text-white placeholder-white bg-primary border-bottom border-gray-300 focus:border-transparent focus:outline-none rounded mb-3"
                           placeholder="Phone Number"
                           value={formData.phoneNumber}
                           onChange={handleChange}
@@ -211,7 +205,7 @@ const Form = () => {
                     <input
                       type="email"
                       name="email"
-                      className="form-control block w-full p-2 text-sm text-white placeholder-white bg-primary border-bottom border-gray-300 focus:border-transparent focus:outline-none"
+                      className="form-control block w-full p-2 text-sm text-white placeholder-white bg-primary border-bottom border-gray-300 focus:border-transparent focus:outline-none rounded mb-3"
                       placeholder="Email"
                       value={formData.email}
                       onChange={handleChange}
